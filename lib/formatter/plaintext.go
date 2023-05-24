@@ -7,7 +7,7 @@ import (
 )
 
 // PlainTextFormatter prints-out facts in k=>v format
-type PlainTextFormatter struct {}
+type PlainTextFormatter struct{}
 
 // NewFormatter returns new plain-text formatter
 func NewFormatter() *PlainTextFormatter {

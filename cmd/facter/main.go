@@ -9,6 +9,7 @@ import (
 	"github.com/KittenConnect/go-facter/lib/formatter"
 
 	_ "github.com/KittenConnect/go-facter/lib/facters/routehOS"
+	// _ "github.com/KittenConnect/go-facter/lib/facters/routehOS/extended" // Conditional build using tag or you can import it manually from here
 )
 
 func main() {
